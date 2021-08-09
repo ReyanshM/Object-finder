@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object finder (COCOSSD)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ml5.js"></script>
+    <script src="p5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <center>
+        <h1 style="font-family:'Syne Mono',monospace;">
+            Object finder
+            <img style="width:100px;height:100px;" src="logo.gif" alt="">
+        </h1>
+        <hr style="width:80%;">
+        <input type="text" name="" id="searchRegister">
+        <br>
+        <br>
+        <button onclick="search()" class="btn btn-danger">Search</button>
+        <br>
+        <h2 id="status" class="btn btn-warning">Searching for</h2>
+        <br>
+        <br>
+        <div id="canvasParent" style="border:white solid 2px;box-shadow:5px 5px black;">
+
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
